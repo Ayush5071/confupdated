@@ -1,0 +1,38 @@
+/* Technical Track Section Styles */
+.technical-track-section {
+    min-height: 100vh;
+    background-color: #fffefc;
+    padding: 2rem 1rem;
+}
+
+.technical-track-section .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.technical-track-section > p {
+    font-size: 1rem;
+    color: #52525b;
+    margin-bottom: 1.5rem;
+}
+
+.technical-track-section .tracks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.technical-track-section .track-item h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #337ab7;
+}
+
+.technical-track-section .track-item p {
+    color: black;
+    font-size: 1rem;
+}

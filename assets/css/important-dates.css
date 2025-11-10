@@ -1,0 +1,49 @@
+/* Important Dates Section Styles */
+.important-dates-section {
+    min-height: 100vh;
+    background-color: #fffefc;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.important-dates-section .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.important-dates-section .tentative {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.important-dates-section .dates-card {
+    background-color: #fffefc;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 100%;
+    max-width: 28rem;
+}
+
+.important-dates-section .dates-table {
+    width: 100%;
+    font-size: 0.875rem;
+    color: black;
+}
+
+.important-dates-section .dates-table tr td {
+    padding: 0.25rem 0;
+}
+
+.important-dates-section .date-label {
+    font-weight: 600;
+}
+
+.important-dates-section .dates-table tr td:last-child {
+    padding-left: 1rem;
+}

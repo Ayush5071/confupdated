@@ -1,0 +1,54 @@
+/* Contact Us Section Styles */
+.contact-section {
+    padding: 2rem;
+    background-color: #fffefc;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.contact-section .contacts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-section .contact-card {
+    background-color: #fffefc;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d4d4d8;
+}
+
+.contact-section .contact-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.contact-section .contact-card ul {
+    list-style: none;
+    color: #374151;
+    font-size: 1.125rem;
+    padding: 0;
+}
+
+.contact-section .contact-card ul li {
+    margin-bottom: 0.25rem;
+}
+
+.contact-section .contact-card .contact-name {
+    font-weight: bold;
+}
+
+.contact-section .contact-card .contact-phone {
+    color: #111827;
+}

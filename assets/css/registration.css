@@ -1,0 +1,61 @@
+/* Registration Page Styles */
+.registration-page {
+    min-height: 100vh;
+    background-color: #fffefc;
+}
+
+.registration-content {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.registration-content .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.registration-content .table-container {
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.registration-content table {
+    min-width: 100%;
+    border: 1px solid #d4d4d8;
+    color: black;
+    border-collapse: collapse;
+}
+
+.registration-content thead {
+    background-color: #eff6ff;
+}
+
+.registration-content th,
+.registration-content td {
+    padding: 0.5rem;
+    border: 1px solid #d4d4d8;
+}
+
+.registration-content tbody tr {
+    border-top: 1px solid #d4d4d8;
+}
+
+.registration-content .note-box {
+    background-color: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: #111827;
+}
+
+.registration-content .note-box strong {
+    font-weight: bold;
+}
+
+.registration-content .note-box .code {
+    font-family: monospace;
+}

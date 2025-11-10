@@ -1,0 +1,48 @@
+/* Guidelines for Paper Submission Styles */
+.guidelines-section {
+    min-height: 100vh;
+    background-color: #fffefc;
+    padding: 2rem 1rem;
+}
+
+.guidelines-section .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.guidelines-section ol {
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 1rem;
+    color: #27272a;
+    margin-bottom: 1rem;
+}
+
+.guidelines-section ol li {
+    margin-bottom: 0.5rem;
+}
+
+.guidelines-section h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #18181b;
+    margin-bottom: 0.5rem;
+}
+
+.guidelines-section p {
+    font-size: 1rem;
+    color: #27272a;
+    margin-bottom: 1rem;
+}
+
+.guidelines-section a {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.guidelines-section a:hover {
+    color: #1e3a8a;
+}

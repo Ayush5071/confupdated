@@ -1,0 +1,46 @@
+/* Committee Pages Styles */
+.committee-page {
+    min-height: 100vh;
+    background-color: #fffefc;
+}
+
+.committee-page .page-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #337ab7;
+}
+
+@media (min-width: 768px) {
+    .committee-page .page-title {
+        font-size: 2.25rem;
+    }
+}
+
+.committee-page .committee-content {
+    max-width: 48rem;
+    margin: 0 auto;
+    background-color: #fffefc;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.committee-page .committee-section {
+    margin-bottom: 1.5rem;
+}
+
+.committee-page .committee-section h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #337ab7;
+    margin-bottom: 0.5rem;
+}
+
+.committee-page .committee-section p {
+    color: #18181b;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}

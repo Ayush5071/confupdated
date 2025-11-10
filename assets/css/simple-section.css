@@ -1,0 +1,19 @@
+/* Simple Section Styles - for Keynote, Tutorial, Track Chair, Special Session, Call for Paper, Camera Ready */
+.simple-section {
+    min-height: 100vh;
+    background-color: #fffefc;
+    padding: 2rem 1rem;
+}
+
+.simple-section .section-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #337ab7;
+    font-family: serif;
+}
+
+.simple-section p {
+    font-size: 1rem;
+    color: #52525b;
+}
