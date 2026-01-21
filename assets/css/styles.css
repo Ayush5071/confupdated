@@ -182,6 +182,21 @@ ul {
     height: 80px;
 }
 
+/* Navbar offset helpers (prevent content being hidden behind fixed navbar) */
+:root {
+    --navbar-height: 80px; /* keep in sync with .nav-container height */
+}
+
+/* Pages that do NOT have the large hero should include top padding so content starts below the fixed navbar */
+body:not(.has-hero) {
+    padding-top: var(--navbar-height);
+}
+
+/* Ensure anchor navigation and in-page links account for the fixed navbar height */
+section[id], .section, .page-title {
+    scroll-margin-top: calc(var(--navbar-height) + 12px);
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
@@ -360,7 +375,7 @@ img.nav-logo,
     
     .nav-menu {
         position: fixed;
-        top: 80px;
+        top: var(--navbar-height);
         left: 0;
         right: 0;
         bottom: 0;
