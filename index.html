@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCES-2027 - Student's Conference on Engineering and Systems</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-<body class="has-hero">
+
+<body class="has-hero" >
     <!-- Announcement Bar -->
-    <div class="announcement-bar">
+    <div class="announcement-bar" >
         <div class="announcement-content">
-            <span class="announcement-item">📅 Conference Dates: May 15-17, 2026</span>
+            <span class="announcement-item">📅 Conference Dates: March 12-14, 2027</span>
             <span class="announcement-divider">|</span>
-            <span class="announcement-item">📝 Submission Deadline: January 31, 2026</span>
+            <span class="announcement-item">📝 Submission Deadline: October 31, 2026</span>
             <span class="announcement-divider">|</span>
-            <span class="announcement-item">🎯 Early Bird Registration: April 25, 2026</span>
+            <span class="announcement-item">🎯 Registration Open: February 05, 2027</span>
         </div>
     </div>
 
@@ -31,12 +35,40 @@
 
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
+                <!-- <li><a href="#about" class="nav-link">About</a></li> -->
                 <li><a href="#speakers" class="nav-link">Speakers</a></li>
                 <li><a href="#tracks" class="nav-link">Tracks</a></li>
                 <li><a href="#dates" class="nav-link">Dates</a></li>
+                <li><a href="./sections/tutist-places.html" class="nav-link">Turist Places</a></li>
                 <li class="nav-dropdown">
-                    <a href="#" class="nav-link dropdown-toggle">Committees <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <a href="#" class="nav-link dropdown-toggle">
+                        Submission Details
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="sections/call-for-paper.html">Call for Paper</a>
+                        </li>
+                        <li>
+                            <a href="sections/paper-submition-guidline.html">  Guideline for paper submission </a>
+                        </li>
+                        <li>
+                            <a href="sections/camera-ready.html">
+                                Submit Camera Ready Paper
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Committees <svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg></a>
                     <ul class="dropdown-menu">
                         <li><a href="committees/conference-committee.html">Conference Committee</a></li>
                         <li><a href="committees/advisory-committee.html">Advisory Committee</a></li>
@@ -45,12 +77,18 @@
                     </ul>
                 </li>
                 <li class="nav-dropdown">
-                    <a href="#" class="nav-link dropdown-toggle">Archives <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <a href="#" class="nav-link dropdown-toggle">Archives <svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg></a>
                     <ul class="dropdown-menu">
-                        <li><a href="https://mnnit.ac.in/sces2024/Special_Session.html" target="_blank">SCES 2024</a></li>
+                        <li><a href="https://mnnit.ac.in/sces2024/Special_Session.html" target="_blank">SCES 2024</a>
+                        </li>
                         <li><a href="https://www.mnnit.ac.in/sces2022/" target="_blank">SCES 2022</a></li>
-                        <li><a href="https://mnnit.ac.in/sces2024/sces2020/index.html" target="_blank">SCES 2020</a></li>
-                        <li><a href="https://mnnit.ac.in/sces2024/sces2019/index.html" target="_blank">SCES 2019</a></li>
+                        <li><a href="https://mnnit.ac.in/sces2024/sces2020/index.html" target="_blank">SCES 2020</a>
+                        </li>
+                        <li><a href="https://mnnit.ac.in/sces2024/sces2019/index.html" target="_blank">SCES 2019</a>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -71,48 +109,74 @@
             <img src="./assets/images/mnnit.jpg" alt="MNNIT Campus" class="hero-bg-img">
             <div class="hero-overlay"></div>
         </div>
-        
+
         <div class="hero-content">
             <div class="hero-logos">
                 <img src="./assets/images/logo.png" alt="Conference Logo" class="hero-logo">
-                <img src="./assets/images/springer.jpg" alt="Springer Logo" class="hero-logo springer-logo">
+                <img src="./assets/images/IEElogo.png" alt="Springer Logo" class="hero-logo springer-logo">
             </div>
-                        
+
             <h1 class="hero-title">
                 9<sup>th</sup> Student's Conference on<br>
                 <span class="gradient-text">Engineering and Systems</span>
             </h1>
-            
+
             <p class="hero-subtitle">SCES-2027</p>
-            
+
             <div class="hero-theme">
                 <span class="theme-label">Theme:</span>
                 <span class="theme-text">Empowering Sustainable Energy and Technology Solutions</span>
             </div>
-            
+
             <div class="hero-info">
                 <div class="hero-info-item">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    <span>May 15-17, 2026</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                        <line x1="16" y1="2" x2="16" y2="6" />
+                        <line x1="8" y1="2" x2="8" y2="6" />
+                        <line x1="3" y1="10" x2="21" y2="10" />
+                    </svg>
+                    <span>March 12-14, 2027</span>
                 </div>
                 <div class="hero-info-item">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                        <circle cx="12" cy="10" r="3" />
+                    </svg>
                     <span>MNNIT Allahabad, India</span>
                 </div>
             </div>
-            
+
             <div class="hero-cta">
                 <a href="registration.html" class="btn btn-primary">
                     <span>Register Now</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
                 </a>
-                <a href="./assets/files/cfp.pdf" class="btn btn-secondary" download>
+                <!-- <a href="./assets/files/cfp.pdf" class="btn btn-secondary" download> -->
+                <!-- <a href="./sections/call-for-paper.html" class="btn btn-secondary" download>
+
                     <span>Call for Papers</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> -->
+                <!-- </a> -->
+                <a href="./sections/call-for-paper.html" class="btn btn-secondary download-btn" target="_blank"
+                    rel="noopener noreferrer">
+
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+
+
+                    <span>Call for Papers</span>
                 </a>
+
+
             </div>
         </div>
-        
+
     </section>
 
     <!-- About Section -->
@@ -123,35 +187,62 @@
                 <h2 class="section-title">About the Conference</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="about-grid">
                 <div class="about-content">
-                    <p class="about-lead">The Department of Electrical Engineering, Motilal Nehru National Institute of Technology Allahabad has successfully organized eight successive students' conferences titled: "Students' Conference on Engineering and Systems (SCES 2012, SCES-2013, SCES-2014, SCES-2015, SCES-2019, SCES 2020, SCES-2022 & SCES-2024)", which were technically sponsored by the IEEE Uttar Pradesh Section and co-sponsored by the IEEE Joint Society Chapter of IE/PEL/CS (Industrial Electronics/ Power Electronics/ Control System).</p>
-                    
-                    <p>Department is organizing the ninth sequel conference of SCES to motivate student scholars working in the area of Engineering and Systems. The conference will focus on the emerging areas in the field of Power, Energy & Control, Electronics, Communication & Signal Processing, Computational Intelligence & Machine Learning, Mechanical Systems and Mechatronics, Applied Sciences, etc.</p>
-                    
-                    <p>The aim of the conference is to provide a platform for research students to present original work done by them which leads to sharing of knowledge at a highly technical platform. The student researchers and academicians from various reputed institutes will be invited for presentations, deliberations, and discussions.</p>
-                    
-                    <p>It is proposed to have a 3-day program during May 15th – 17th, 2026. The technical program will comprise of keynote and tutorial sessions delivered by academic and industry experts of repute, and involve students' research work through oral presentations and technical exhibitions, etc.</p>
-                    
-                    <a href="./assets/files/sces_bronchure.pdf" class="btn btn-outline" download>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    <p class="about-lead">The Department of Electrical Engineering, Motilal Nehru National Institute of
+                        Technology Allahabad has successfully organized eight successive students' conferences titled:
+                        "Students' Conference on Engineering and Systems (SCES 2012, SCES-2013, SCES-2014, SCES-2015,
+                        SCES-2019, SCES 2020, SCES-2022 & SCES-2024)", which were technically sponsored by the IEEE
+                        Uttar Pradesh Section and co-sponsored by the IEEE Joint Society Chapter of IE/PEL/CS
+                        (Industrial Electronics/ Power Electronics/ Control System).</p>
+
+                    <p>Department is organizing the ninth sequel conference of SCES to motivate student scholars working
+                        in the area of Engineering and Systems. The conference will focus on the emerging areas in the
+                        field of Power, Energy & Control, Electronics, Communication & Signal Processing, Computational
+                        Intelligence & Machine Learning, Mechanical Systems and Mechatronics, Applied Sciences, etc.</p>
+
+                    <p>The aim of the conference is to provide a platform for research students to present original work
+                        done by them which leads to sharing of knowledge at a highly technical platform. The student
+                        researchers and academicians from various reputed institutes will be invited for presentations,
+                        deliberations, and discussions.</p>
+
+                    <p>It is proposed to have a 3-day program during March 12th – 14th, 2027. The technical program will
+                        comprise of keynote and tutorial sessions delivered by academic and industry experts of repute,
+                        and involve students' research work through oral presentations and technical exhibitions, etc.
+                    </p>
+
+                    <a href="./assets/files/2. SCES2026_Brochure1.pdf" class="btn btn-outline" download>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                        </svg>
                         Download Brochure
                     </a>
                 </div>
-                
+
                 <div class="about-cards">
                     <div class="info-card">
                         <div class="info-card-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
                         </div>
                         <h3>About MNNIT</h3>
                         <p>An Institute of National Importance as declared by NIT ACT, GOI, 2007</p>
                     </div>
-                    
+
                     <div class="info-card">
                         <div class="info-card-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                            </svg>
                         </div>
                         <h3>EE Department</h3>
                         <p>Established in 1961, producing globally competitive technical manpower</p>
@@ -170,62 +261,99 @@
                 <p class="section-subtitle">[Tentative]</p>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-marker">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
                     </div>
                     <div class="timeline-content">
-                        <span class="timeline-date">November 15, 2025</span>
+                        <span class="timeline-date">September 01, 2026</span>
                         <h3 class="timeline-title">Submission Opens</h3>
                         <p>Start submitting your research papers</p>
                     </div>
                 </div>
-                
+
                 <div class="timeline-item">
                     <div class="timeline-marker">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                        </svg>
                     </div>
                     <div class="timeline-content">
-                        <span class="timeline-date">January 31, 2026</span>
+                        <span class="timeline-date">October 31, 2026</span>
                         <h3 class="timeline-title">Submission Deadline</h3>
                         <p>Last date for paper submission</p>
                     </div>
                 </div>
-                
+
                 <div class="timeline-item">
                     <div class="timeline-marker">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
                     </div>
                     <div class="timeline-content">
-                        <span class="timeline-date">March 31, 2026</span>
+                        <span class="timeline-date">January 08, 2027</span>
                         <h3 class="timeline-title">Acceptance Notification</h3>
                         <p>Authors will be notified of acceptance</p>
                     </div>
                 </div>
-                
-                <div class="timeline-item">
+
+                 <div class="timeline-item">
                     <div class="timeline-marker">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
                     </div>
                     <div class="timeline-content">
-                        <span class="timeline-date">April 15, 2026</span>
+                        <span class="timeline-date">Feb 08, 2027</span>
+                        <h3 class="timeline-title">Registration open</h3>
+                        <p>Registration starts</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 10, 2027</span>
                         <h3 class="timeline-title">Camera Ready Deadline</h3>
                         <p>Submit final camera-ready papers</p>
                     </div>
                 </div>
-                
-                <div class="timeline-item">
+
+                <!-- <div class="timeline-item">
                     <div class="timeline-marker highlight">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="8.5" cy="7" r="4" />
+                            <line x1="20" y1="8" x2="20" y2="14" />
+                            <line x1="23" y1="11" x2="17" y2="11" />
+                        </svg>
                     </div>
                     <div class="timeline-content highlight">
                         <span class="timeline-date">April 25, 2026</span>
                         <h3 class="timeline-title">Early Bird Registration</h3>
                         <p>Register early for discounted rates</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -238,13 +366,20 @@
                 <h2 class="section-title">Keynote & Tutorial Speakers</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="coming-soon-card">
                 <div class="coming-soon-icon">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
                 </div>
                 <h3>Speakers Announcement Coming Soon</h3>
-                <p>We're finalizing our lineup of distinguished speakers from academia and industry. Stay tuned for exciting announcements!</p>
+                <p>We're finalizing our lineup of distinguished speakers from academia and industry. Stay tuned for
+                    exciting announcements!</p>
             </div>
         </div>
     </section>
@@ -257,50 +392,94 @@
                 <h2 class="section-title">Technical Tracks</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="tracks-grid">
                 <div class="track-card">
                     <div class="track-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                        </svg>
                     </div>
                     <h3>Power, Energy & Control</h3>
-                    <p>Control Systems, Instrumentation & Measurement, Dielectrics & Electrical Insulation, EHV AC & HVDC Transmission, Electric Vehicle/ Mobility, Energy storage & Battery Charging Techniques, Industrial Drives & Applications, Intelligent Transportation Systems, Power Electronic Converters, Power Quality & EMI, Power System Operation & Control, Power System Protection, Regulation & Electricity Market, Robotics & Automation, Smart Grid & Micro Grid Technologies, etc.</p>
+                    <p>Control Systems, Instrumentation & Measurement, Dielectrics & Electrical Insulation, EHV AC &
+                        HVDC Transmission, Electric Vehicle/ Mobility, Energy storage & Battery Charging Techniques,
+                        Industrial Drives & Applications, Intelligent Transportation Systems, Power Electronic
+                        Converters, Power Quality & EMI, Power System Operation & Control, Power System Protection,
+                        Regulation & Electricity Market, Robotics & Automation, Smart Grid & Micro Grid Technologies,
+                        etc.</p>
                     <span class="track-badge">Track 1</span>
                 </div>
-                
+
                 <div class="track-card">
                     <div class="track-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                        </svg>
                     </div>
                     <h3>Electronics, Communication & Signal Processing</h3>
-                    <p>Antennas & Propagation, Circuits & Systems, Communication, Consumer Electronics, & Electromagnetics, Electron Devices & Solid-State Circuits, Micro & Nano-electronics, Photonic Technology & Applications, Optical Communication, RF, Microwave, & Millimetre Wave Techniques, Ultrasonic, Ferroelectrics, Sensors & Sensing Systems, Signal, Image & Video Processing, VLSI design, Wireless Technologies, etc.</p>
+                    <p>Antennas & Propagation, Circuits & Systems, Communication, Consumer Electronics, &
+                        Electromagnetics, Electron Devices & Solid-State Circuits, Micro & Nano-electronics, Photonic
+                        Technology & Applications, Optical Communication, RF, Microwave, & Millimetre Wave Techniques,
+                        Ultrasonic, Ferroelectrics, Sensors & Sensing Systems, Signal, Image & Video Processing, VLSI
+                        design, Wireless Technologies, etc.</p>
                     <span class="track-badge">Track 2</span>
                 </div>
-                
+
                 <div class="track-card">
                     <div class="track-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2" />
+                            <rect x="9" y="9" width="6" height="6" />
+                            <line x1="9" y1="1" x2="9" y2="4" />
+                            <line x1="15" y1="1" x2="15" y2="4" />
+                            <line x1="9" y1="20" x2="9" y2="23" />
+                            <line x1="15" y1="20" x2="15" y2="23" />
+                            <line x1="20" y1="9" x2="23" y2="9" />
+                            <line x1="20" y1="14" x2="23" y2="14" />
+                            <line x1="1" y1="9" x2="4" y2="9" />
+                            <line x1="1" y1="14" x2="4" y2="14" />
+                        </svg>
                     </div>
                     <h3>Computational Intelligence & Machine Learning</h3>
-                    <p>Artificial & Augmented Intelligence and their applications, Big Data Analysis, Biometrics & RFID, Computational Intelligence, Computer Networks, Computer Vision, Image & Video Processing, Internet of Things, Machine learning, Wireless Networks & Security, 5G Networks & Cloud Computing, etc.</p>
+                    <p>Artificial & Augmented Intelligence and their applications, Big Data Analysis, Biometrics & RFID,
+                        Computational Intelligence, Computer Networks, Computer Vision, Image & Video Processing,
+                        Internet of Things, Machine learning, Wireless Networks & Security, 5G Networks & Cloud
+                        Computing, etc.</p>
                     <span class="track-badge">Track 3</span>
                 </div>
-                
+
                 <div class="track-card">
                     <div class="track-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                        </svg>
                     </div>
                     <h3>Mechanical Systems and Mechatronics</h3>
-                    <p>Aerospace Engineering, Computational Fluid Dynamics, Composite Materials, Heat & Mass Transfer, Manufacturing Technology, Mechatronics, MEMS, Refrigeration & Cryogenics, Smart Materials & Mechanics, Solid Mechanics, etc.</p>
+                    <p>Aerospace Engineering, Computational Fluid Dynamics, Composite Materials, Heat & Mass Transfer,
+                        Manufacturing Technology, Mechatronics, MEMS, Refrigeration & Cryogenics, Smart Materials &
+                        Mechanics, Solid Mechanics, etc.</p>
                     <span class="track-badge">Track 4</span>
                 </div>
-                
+
                 <div class="track-card">
                     <div class="track-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
                     </div>
                     <h3>Applied Sciences</h3>
-                    <p>Applied Superconductivity, Bioinformatics, Biomedical Engineering, Computational Biology, Healthcare & Agriculture etc., Engineering in Medicine & Biology, Geo-informatics and Transportation Engineering, Geoscience & Remote Sensing, Nano-biotechnology & Applications, Nuclear Science, Pervasive Computing, Social & Humanitarian Implications of Technology, Statistical Methods, Stability Theory, etc.</p>
+                    <p>Applied Superconductivity, Bioinformatics, Biomedical Engineering, Computational Biology,
+                        Healthcare & Agriculture etc., Engineering in Medicine & Biology, Geo-informatics and
+                        Transportation Engineering, Geoscience & Remote Sensing, Nano-biotechnology & Applications,
+                        Nuclear Science, Pervasive Computing, Social & Humanitarian Implications of Technology,
+                        Statistical Methods, Stability Theory, etc.</p>
                     <span class="track-badge">Track 5</span>
                 </div>
             </div>
@@ -315,7 +494,7 @@
                 <h2 class="section-title">Submission Guidelines</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="guidelines-content">
                 <div class="guidelines-list">
                     <div class="guideline-item">
@@ -324,63 +503,69 @@
                             <h4>At least one author of each submitted paper must be a student.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">02</span>
                         <div class="guideline-text">
-                            <h4>Prospective authors are invited to submit original and unpublished papers in the conference.</h4>
+                            <h4>Prospective authors are invited to submit original and unpublished papers in the
+                                conference.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">03</span>
                         <div class="guideline-text">
                             <h4>Paper(s) should be submitted in specified paper template available on website.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">04</span>
                         <div class="guideline-text">
-                            <h4>As per the conference norms, the papers submitted will undergo a peer review process for acceptance. The papers will be reviewed by the technical experts.</h4>
+                            <h4>As per the conference norms, the papers submitted will undergo a peer review process for
+                                acceptance. The papers will be reviewed by the technical experts.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">05</span>
                         <div class="guideline-text">
                             <h4>The conference will have oral sessions.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">06</span>
                         <div class="guideline-text">
-                            <h4>High quality original papers as per the standards of the conference will be accepted under oral session.</h4>
+                            <h4>High quality original papers as per the standards of the conference will be accepted
+                                under oral session.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">07</span>
                         <div class="guideline-text">
-                            <h4>Technical program committee of the conference will decide the inclusion of paper in the conference proceedings.</h4>
+                            <h4>Technical program committee of the conference will decide the inclusion of paper in the
+                                conference proceedings.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">08</span>
                         <div class="guideline-text">
-                            <h4>All the papers should be submitted through on-line paper submission process. Refer paper submission link on website for paper submission.</h4>
+                            <h4>All the papers should be submitted through on-line paper submission process. Refer paper
+                                submission link on website for paper submission.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">09</span>
                         <div class="guideline-text">
-                            <h4>All the papers will be checked for plagiarism and papers that violate the conference publication principles will be summarily rejected.</h4>
+                            <h4>All the papers will be checked for plagiarism and papers that violate the conference
+                                publication principles will be summarily rejected.</h4>
                         </div>
                     </div>
-                    
+
                     <div class="guideline-item">
                         <span class="guideline-number">10</span>
                         <div class="guideline-text">
@@ -388,17 +573,26 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="guidelines-highlight">
                     <div class="highlight-card">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="7" />
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                        </svg>
                         <h3>Best Paper Awards</h3>
                         <p>A Best Paper Award will be given in each technical track!</p>
                     </div>
-                    
+
                     <a href="https://www.mnnit.ac.in/sces2026" target="_blank" class="btn btn-light">
                         Visit Conference Website
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                            <polyline points="15 3 21 3 21 9" />
+                            <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -413,33 +607,33 @@
                 <h2 class="section-title">Sponsorship Opportunities</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="sponsor-tiers">
                 <div class="sponsor-tier platinum">
                     <div class="tier-badge">Platinum</div>
                     <div class="tier-price">₹1,00,000</div>
                     <div class="tier-features">Premium visibility & branding</div>
                 </div>
-                
+
                 <div class="sponsor-tier diamond">
                     <div class="tier-badge">Diamond</div>
                     <div class="tier-price">₹50,000</div>
                     <div class="tier-features">Enhanced visibility</div>
                 </div>
-                
+
                 <div class="sponsor-tier gold">
                     <div class="tier-badge">Gold</div>
                     <div class="tier-price">₹25,000</div>
                     <div class="tier-features">Standard visibility</div>
                 </div>
-                
+
                 <div class="sponsor-tier silver">
                     <div class="tier-badge">Silver</div>
                     <div class="tier-price">₹15,000</div>
                     <div class="tier-features">Basic visibility</div>
                 </div>
             </div>
-            
+
             <div class="sponsors-display">
                 <h3>Our Sponsors</h3>
                 <div class="coming-soon-mini">Coming Soon</div>
@@ -455,11 +649,17 @@
                 <h2 class="section-title">Contact Us</h2>
                 <div class="section-divider"></div>
             </div>
-            
+
             <div class="contact-grid">
                 <div class="contact-card">
                     <div class="contact-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
                     </div>
                     <h3>Faculty Contacts</h3>
                     <ul class="contact-list">
@@ -477,10 +677,14 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="contact-card">
                     <div class="contact-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
                     </div>
                     <h3>Email Us</h3>
                     <ul class="contact-list">
@@ -490,10 +694,14 @@
                         <li><a href="mailto:arvindkp@mnnit.ac.in">arvindkp@mnnit.ac.in</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="contact-card">
                     <div class="contact-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
                     </div>
                     <h3>Venue</h3>
                     <p class="venue-text">
@@ -515,7 +723,7 @@
                     <h3>SCES 2027</h3>
                     <p>9th Student's Conference on Engineering and Systems</p>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
@@ -526,7 +734,7 @@
                         <li><a href="registration.html">Registration</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Resources</h4>
                     <ul>
@@ -536,18 +744,22 @@
                         <li><a href="https://www.ieee.org/" target="_blank">IEEE</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Previous Proceedings</h4>
                     <ul>
-                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/9236661/proceeding" target="_blank">SCES 2020</a></li>
-                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/8968649/proceeding" target="_blank">SCES 2019</a></li>
-                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/7505533/proceeding" target="_blank">SCES 2015</a></li>
-                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/6872765/proceeding" target="_blank">SCES 2014</a></li>
+                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/9236661/proceeding" target="_blank">SCES
+                                2020</a></li>
+                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/8968649/proceeding" target="_blank">SCES
+                                2019</a></li>
+                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/7505533/proceeding" target="_blank">SCES
+                                2015</a></li>
+                        <li><a href="https://ieeexplore.ieee.org/xpl/conhome/6872765/proceeding" target="_blank">SCES
+                                2014</a></li>
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2027 SCES MNNIT. All rights reserved.</p>
                 <p>Web Team: <a href="web-team.html">Meet the Team</a></p>
@@ -557,4 +769,5 @@
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
