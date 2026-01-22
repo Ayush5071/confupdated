@@ -1,6 +1,6 @@
-# SCES-2026 Conference Website (HTML/CSS/JS Version)
+# SCES-2027 Conference Website (HTML/CSS/JS Version)
 
-This is a pure HTML, CSS, and JavaScript version of the SCES-2026 conference website with the exact same design as the Next.js version.
+This is a pure HTML, CSS, and JavaScript version of the SCES-2027 conference website with the exact same design as the Next.js version.
 
 ## Folder Structure
 
@@ -30,7 +30,7 @@ html-website/
   - Conference title, theme, dates, and organizing institution
   - Background overlay for text contrast
 - **Important Dates Section**: Table showing key conference dates
-- **About the Conference**: Full description of SCES-2026
+- **About the Conference**: Full description of SCES-2027
 - **About Department**: Details about Electrical Engineering Department
 - **Sponsorship Opportunities**: Table showing sponsorship categories and fees
 - **Our Sponsors**: "Coming Soon" placeholder

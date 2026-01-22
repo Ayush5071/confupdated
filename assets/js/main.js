@@ -1,5 +1,5 @@
 /**
- * SCES 2026 - Modern Conference Website
+ * SCES 2027 - Modern Conference Website
  * JavaScript for interactive functionality
  */
 
@@ -402,5 +402,5 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.transform = 'translateY(0)';
     });
     
-    console.log('SCES 2026 website loaded successfully! 🎓');
+    console.log('SCES 2027 website loaded successfully! 🎓');
 });
